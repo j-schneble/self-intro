@@ -48,7 +48,9 @@
   height: 100vh;
   background-color: transparent;
 }
-
+.quote {
+  padding-bottom: 4px;
+}
 
 
 .projtitle {
@@ -60,7 +62,8 @@
   padding: 0.5px;
     text-align:center;
     
-padding-top: 14px;
+  padding-top: 10px;
+  padding-bottom: 5px;
    
   transition: all 0.2s ease;
   position: relative;
@@ -174,6 +177,19 @@ word-break: normal;
   .container1 {
     padding: 0 2rem;
   }
+  .itemicon {
+   padding-top: 6px;
+    font-size: 1.5rem;
+  
+  }
+  .itemicon:hover {
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all ease .7s;
+    -moz-transition: all ease .7s;
+    transition: all ease .7s;
+  }
   .item1 {
  
     font-size: 2.175rem/* 30px */;
@@ -181,7 +197,7 @@ word-break: normal;
     margin-left: 1px;
     
     padding: 0.3rem;
-    border-width: 1.2px;
+    border-width: 1px;
 
   
   }

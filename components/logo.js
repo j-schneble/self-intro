@@ -28,7 +28,7 @@ const Logo = () => {
     <Link href="/" scroll={false}>
       <a>
         <LogoBox>
-  
+          <Image src={jsImg} width={30} height={30} alt="logo" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily='Baloo, sans-serif'
@@ -36,7 +36,7 @@ const Logo = () => {
             letterSpacing="widest"
             ml={4}
           >
-            Jack Schneble
+            Jack 
           </Text>
         </LogoBox>
       </a>

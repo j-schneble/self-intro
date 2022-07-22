@@ -20,7 +20,7 @@ export default function App() {
      
       <Canvas clasName="canvas">
         <ambientLight intensity={0.5} />
-        <directionalLight position={[-2, 5, 2]} />
+        <directionalLight position={[-2, 1, 2]} />
         <Suspense fallback={null}>
           <AnimatedSphere />
         </Suspense>
@@ -39,6 +39,8 @@ export default function App() {
 
 const Wrapper = styled.div`
   position: relative;
+  align-items: center;
+  height: 200px;
   
 
 
