@@ -13,7 +13,7 @@ import {
   import { ExternalLinkIcon } from '@chakra-ui/icons'
   import { Title, WorkImage, Meta} from '../../components/build'
   import P from '../../components/paragraph.js'
-  i
+  
   
   const Work = () => (
     <Layout fontFamily='Baloo, sans-serif' title="jacksforecast">
