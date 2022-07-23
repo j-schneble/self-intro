@@ -1,8 +1,8 @@
 import * as THREE from "three";
 import React, { Suspense, useRef } from "react";
 import ReactDOM from "react-dom";
-import { Canvas, useFrame, useLoader } from "react-three-fiber";
-import { OrbitControls, Stats } from "@react-three/drei";
+import {  useFrame, useLoader } from "@react-three/fiber";
+
 
 
 export default function Sphere () {
