@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Text, useColorModeValue } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
@@ -33,10 +33,10 @@ const Builds = () => (
      
           <WorkGridItem 
              
- id="inote"  thumbnail={thumbiNote} ><h1 className="top" >iNote</h1>
-          <div className='description'>
+ id="inote"  thumbnail={thumbiNote} ><Heading variant="section-title" fontFamily='Baloo, sans-serif' className="top" fontWeight="600"  >iNote</Heading>
+          <Text textColor={useColorModeValue("gray.600", "gray.400")} fontSize={'md'} className='description'>
             A MERN Stack notes application. Specficially built using ReactJS, MongoDB, Postman.
-         </div> </WorkGridItem>
+         </Text> </WorkGridItem>
        
         </Section>
         <Section>
@@ -47,10 +47,10 @@ const Builds = () => (
             
             thumbnail= {thumbWave}
             
-          ><h1 className="top" >3D wave</h1>
-          <div className='description'>
+          ><Heading variant="section-title" fontFamily='Baloo, sans-serif' className="top" fontWeight="600" >3D wave</Heading>
+          <Text textColor={useColorModeValue("gray.600", "gray.400")} fontSize={'md'}className='description'>
             A 3d Wave Ripple Animation using React, Three.js, and react-three-fiber
-          </div></WorkGridItem>
+          </Text></WorkGridItem>
           
         </Section>
 
@@ -60,10 +60,10 @@ const Builds = () => (
             id="jacksforecast"
             thumbnail={thumbWeather}
            
-          ><h1 className="top" > Jack&apos;s Forecast</h1>
-          <div className='description'>
+          ><Heading variant="section-title" fontFamily='Baloo, sans-serif' className="top" fontWeight="600"  > Jack&apos;s Forecast</Heading>
+          <Text textColor={useColorModeValue("gray.600", "gray.400")} fontSize={'md'} className='description'>
            A weather app using Nextjs, Tailwind, and the Current Weather data API from openweather.org.
-         </div> </WorkGridItem>
+         </Text> </WorkGridItem>
         </Section>
         <Section delay={0.1}>
           <WorkGridItem
@@ -72,10 +72,10 @@ const Builds = () => (
             thumbnail={thumbChat}
           
           >
-          <h1 className="top" >iChat</h1>
-          <div className='description'>
+          <Heading variant="section-title" fontFamily='Baloo, sans-serif' className="top" fontWeight="600"  >iChat</Heading>
+          <Text textColor={useColorModeValue("gray.600", "gray.400")} fontSize={'md'} className='description'>
            The first version of iChat. A real time chat application. 
-           </div> </WorkGridItem>
+           </Text> </WorkGridItem>
       </Section>
       <Section delay={0.1}>
           <WorkGridItem
@@ -84,10 +84,10 @@ const Builds = () => (
             thumbnail={thumbV2}
           
           >
-          <h1 className="top" >iChatv2</h1>
-          <div className='description'>
+          <Heading variant="section-title" fontFamily='Baloo, sans-serif' className="top" fontWeight="600"  >iChatv2</Heading>
+          <Text textColor={useColorModeValue("gray.600", "gray.400")} fontSize={'md'} className='description'>
            The second version of iChat. A real time chat application, using Okta secure authentication. 
-           </div> </WorkGridItem>
+           </Text> </WorkGridItem>
       </Section>
       <Section delay={0.1}>
           <WorkGridItem
@@ -96,10 +96,10 @@ const Builds = () => (
             thumbnail={thumbText}
           
           >
-          <h1 className="top" >Jacks Text Inspect</h1>
-          <div className='description'>
+          <Heading variant="section-title" fontFamily='Baloo, sans-serif' className="top" fontWeight="600"  >Jacks Text Inspect</Heading>
+          <Text textColor={useColorModeValue("gray.600", "gray.400")} fontSize={'md'} className='description'>
           Learning animations with Framer Motion. Created an inspector that when hovered over text, the text enlarges and changes color.
-           </div> </WorkGridItem>
+           </Text> </WorkGridItem>
       </Section>
    
    

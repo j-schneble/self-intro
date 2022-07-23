@@ -16,12 +16,18 @@
     border-bottom-right-radius: 15px;
    
 }
+.iconic {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
 .item {
-  text-indent: left;
-    letter-spacing: -0.05em;
-    text-indent: 2rem;
+  text-indent: 0.7rem;
+    letter-spacing: -0.03em;
+   font-weight: 300;
     text-align:center;
    padding-bottom: 15px;
+   padding-top: 4px;
    margin-right: 3px;
    margin-bottom: 20px;
    font-size: large;
@@ -178,9 +184,10 @@ word-break: normal;
     padding: 0 2rem;
   }
   .itemicon {
-   padding-top: 6px;
-    font-size: 1.5rem;
-  
+    padding-bottom: 4px;
+    font-size: 1.6rem;
+  color: #718096d9;
+  margin-top: 24px;
   }
   .itemicon:hover {
     -ms-transform: rotate(360deg);

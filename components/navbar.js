@@ -26,8 +26,8 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
       <NextLink href={href} passHref scroll={false}>
         <Link
           p={2}
-          bg={active ? 'grassTeal' : undefined}
-          color={active ? '#202023' : inactiveColor}
+          bg={active ? '#a0aec0' : undefined}
+          color={active ? '#8352FD' : inactiveColor}
           target={target}
           {...props}
         >
@@ -52,7 +52,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
       >
         <Container
           display="flex"
-          p={2}
+          p={5}
           maxW="container.md"
           wrap="wrap"
           align="center"
