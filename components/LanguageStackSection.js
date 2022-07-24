@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heading, SlideFade, Grid, Text, useColorModeValue } from "@chakra-ui/react";
+import { Heading, SlideFade, Grid, useColorModeValue, Text } from "@chakra-ui/react";
 import StackCard from '../components/StackCard';
 import { languageStacks } from '../constant/index';
 

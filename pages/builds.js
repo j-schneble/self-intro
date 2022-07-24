@@ -9,7 +9,7 @@ import thumbWave from '../public/images/electricwave.png'
 import thumbChat from '../public/images/chat.png';
 import thumbV2 from '../public/images/ichatv2.png'
 import thumbText from '../public/images/textinspect.png'
-import Circle from './circle'
+
 
 
 const Builds = () => (
@@ -19,7 +19,7 @@ const Builds = () => (
   title="Works"
 
    >
-   <Circle />
+ 
     <Container >
       <Heading fontFamily='Baloo, sans-serif' as="h3" fontSize={20} mb={4}>
         Works

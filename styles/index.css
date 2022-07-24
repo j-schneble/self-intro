@@ -275,3 +275,11 @@ word-break: normal;
     --tw-translate-y: -50%;
     transform: var(--tw-transform);
   }
+  .scene{
+    width:50%;
+   
+}
+
+.canvas{
+    background:transparent;
+}

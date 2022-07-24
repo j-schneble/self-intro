@@ -1,3 +1,5 @@
+
+
 import NextLink from 'next/link'
 import {
   Link,
@@ -19,7 +21,7 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { FaLaptop, FaCode,  } from 'react-icons/fa'
 import { BsLinkedin, BsFillPersonLinesFill,BsGithub } from 'react-icons/bs';
-import Circle from './circle'
+
 import thumbFb from '../public/images/fb.png'
 import thumbSite from '../public/images/site.png'
 import LanguageStackSection from '../components/LanguageStackSection'
@@ -31,34 +33,34 @@ import OtherStackSection from '../components/OtherStackSection'
 const Home = () => (
   <Layout>
     <Container>
+    <Box
+        borderRadius="lg"
+        mb={6}
+        p={3}
+        textAlign="center"
+        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+        css={{ backdropFilter: 'blur(12px)' }}
+      >
+      <Box borderBottom="" flexGrow={1}>
+     
+     <Heading as="h1" paddingBottom="2px" fontFamily='Baloo, sans-serif' fontWeight="500" letterSpacing="widest"  variant="page-title">
+   
+       Jack Schneble
+        
+     </Heading>
+    
+     <p textColor="#d9dbdb" fontSize={'md'} className="quote"> A developer that believes in discovering the &quot;why.&quot;</p>
+     
+
+   </Box>
+      </Box>
     
  
-      <Box marginTop="10px" display={{ md: 'flex' }}>
-      
-        <Box borderBottom="" flexGrow={1}>
-        <Circle  />
-          <Heading as="h1" paddingBottom="2px" fontFamily='Baloo, sans-serif' fontWeight="500" letterSpacing="widest"  variant="page-title">
-        
-            Jack Schneble
-             
-          </Heading>
-         
-          <Text textColor={useColorModeValue("gray.600", "gray.400")} fontSize={'md'} className="quote"> A developer that believes in discovering the &quot;why.&quot;</Text>
-          
-   
-        </Box>
-       
-        <Box
-          flexShrink={0}
-          mt={{ base: 4, md: 0 }}
-          ml={{ md: 6 }}
-          textAlign="center"
-        >         
-        </Box>
-      </Box>
+  
+  
 
       <Section delay={0.1}>   
-        <Container  mt={['5', '10']} mb={['5', '10']}
+        <Container  mt={['3', '6']} mb={['2', '3']}
         >           
          <Box borderBottom="2px solid rgb(51, 52, 54)" borderTop="2px solid rgb(51, 52, 54)"> 
        
@@ -80,19 +82,19 @@ const Home = () => (
         </Container>
     </Section>
           <LanguageStackSection />
-          <Divider my={7} />
+          <Divider my={4} />
           
     <Section delay={0.3}>
     <Heading
                 as="h1"
                 fontSize={{ base: "20px", md: "24px", lg: "28px" }}
-                mb={3}
+                mb={5}
                 fontFamily='Baloo, sans-serif'
                 fontWeight="400"
                 variant="section-title"
 
             >   
-                In Progress
+                Currently Building
                     
             </Heading>
    
