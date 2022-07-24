@@ -184,10 +184,12 @@ word-break: normal;
     padding: 0 2rem;
   }
   .itemicon {
-    padding-bottom: 4px;
-    font-size: 1.6rem;
+    padding: 2px;
+    
+    font-size: 1.8rem;
   color: #718096d9;
   margin-top: 24px;
+  border: 2px solid white;
   }
   .itemicon:hover {
     -ms-transform: rotate(360deg);
@@ -282,4 +284,27 @@ word-break: normal;
 
 .canvas{
     background:transparent;
+}
+
+.design {
+  background-color: rgba(228, 223, 216, 0.0050);
+  padding-top: 1rem;
+
+  border-radius:15px;
+  
+}
+
+.develop {
+  background-color: rgba(228, 223, 216, 0.0050);
+  padding-top: 1rem;
+
+  border-radius:15px;
+}
+
+.buildsummary {
+  background-color: rgba(228, 223, 216, 0.0050);
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+
+  border-radius:15px;
 }

@@ -5,7 +5,7 @@ import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
   font-weight: bold;
-  font-size: 18px;
+  font-size: 19px;
   display: inline-flex;
   align-items: center;
   height: 30px;
@@ -32,7 +32,8 @@ const Logo = () => {
             fontFamily='Baloo, sans-serif'
             fontWeight="500"
             letterSpacing="widest"
-            ml={4}
+            ml={3}
+            mt={1}
           >
             Jack 
           </Text>

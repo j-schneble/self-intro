@@ -35,50 +35,51 @@ const Home = () => (
     <Container>
     <Box
         borderRadius="lg"
-        mb={6}
+        mb={12}
         p={3}
         textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-        css={{ backdropFilter: 'blur(12px)' }}
+         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+        css={{ backdropFilter: 'blur(10px)' }}
       >
-      <Box borderBottom="" flexGrow={1}>
+      
      
-     <Heading as="h1" paddingBottom="2px" fontFamily='Baloo, sans-serif' fontWeight="500" letterSpacing="widest"  variant="page-title">
+     <Heading  as="h1" paddingBottom="2px" fontFamily='Baloo, sans-serif' fontWeight="500" letterSpacing="widest"  variant="page-title">
    
        Jack Schneble
         
      </Heading>
     
-     <p textColor="#d9dbdb" fontSize={'md'} className="quote"> A developer that believes in discovering the &quot;why.&quot;</p>
+     <p textColor="#d9dbdb" borderBottom="2px solid white" fontSize={'md'} className="quote"> A developer that believes in discovering the &quot;why.&quot;</p>
      
 
    </Box>
-      </Box>
+  
     
  
   
   
 
       <Section delay={0.1}>   
-        <Container  mt={['3', '6']} mb={['2', '3']}
+        <Container  mt={['5', '6']} mb={['5', '10']}
         >           
-         <Box borderBottom="2px solid rgb(51, 52, 54)" borderTop="2px solid rgb(51, 52, 54)"> 
-       
-          <FaLaptop  className="itemicon" />
+         <Box className="design">
+     
    
     
               <h1 fontFamily='Baloo, sans-serif'
                   className="item" 
-                              
+                           
                  >
-                  Design isn&apos;t just what a product looks like on the outside. Design encompasses the internal functionality of a product as well as the overall user experience. I strive to design interfaces and experiences that people can enjoy on all digital mediums.
+   Design encompasses the internal functionality of a product as well as the overall user experience. I strive to design interfaces and experiences that people can enjoy on all digital mediums.
               </h1>
-              <FaCode className="itemicon" />
+              </Box>
+              <Divider my={4} />
+           <Box className="develop">
                <h1 className="item">
                 Constantly looking for a new way to understand and create, I am always working on new projects. As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create beautiful software. 
               </h1>  
-             
-          </Box>
+              </Box>
+ 
         </Container>
     </Section>
           <LanguageStackSection />
@@ -88,6 +89,7 @@ const Home = () => (
     <Heading
                 as="h1"
                 fontSize={{ base: "20px", md: "24px", lg: "28px" }}
+                mt={3}
                 mb={5}
                 fontFamily='Baloo, sans-serif'
                 fontWeight="400"
@@ -105,7 +107,7 @@ const Home = () => (
             
             thumbnail={thumbFb}
           ><h1 className="top">Recreating Facebook</h1>
-            Recreating Facebook with real login
+            
           </GridItem>
           <GridItem
             id="Site"
@@ -113,7 +115,7 @@ const Home = () => (
             thumbnail={thumbSite}
           >
           <h1 className="top">v2 Personal Site</h1>
-            Creating another personal site
+           
           </GridItem>
        </SimpleGrid>
        </Section>

@@ -60,7 +60,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
           align="center"
           justify="space-between"
         >
-          <Flex align="center" mr={5}>
+          <Flex align="center" mr={10} mt={0.5}>
             <Heading as="h1" size="xl" letterSpacing={'wider'}>
               <Logo />
             </Heading>
@@ -73,7 +73,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
             alignItems="center"
            
             flexGrow={1}
-            mt={{ base: 4, md: 0 }}
+            mt={{ base: 3, md: 0 }}
           >
             <LinkItem href="/builds" path={path}>
               Builds
