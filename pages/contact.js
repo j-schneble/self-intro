@@ -21,7 +21,7 @@ import Head from 'next/head';
 import ErrorMessage from '../components/error-message';
 import { init } from 'emailjs-com';
 import emailjs from 'emailjs-com';
-import Circle from './circle'
+
 
 const Contact = () => {
 
@@ -77,7 +77,7 @@ const Contact = () => {
 
     return (
         <div className="container1">
-        <Circle />
+       
             <Head>
                 <title>jack | Contact</title>
                 <meta name="description" content="Jack | Developer" />
