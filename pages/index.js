@@ -36,72 +36,77 @@ const Home = () => (
     <Box
         borderRadius="lg"
         mb={12}
-        p={3}
+        p={2}
         textAlign="center"
-         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-        css={{ backdropFilter: 'blur(10px)' }}
-      >
-      
-     
-     <Heading  as="h1" paddingBottom="2px" fontFamily='Baloo, sans-serif' fontWeight="500" letterSpacing="widest"  variant="page-title">
-   
-       Jack Schneble
         
-     </Heading>
-    
-     <p textColor="#d9dbdb" borderBottom="2px solid white" fontSize={'md'} className="quote"> A developer that believes in discovering the &quot;why.&quot;</p>
-     
 
+      >
+  
+     <Heading fontFamily="SF-Pro-Display" fontWeight="500" css={{ backdropFilter: 'blur(16px)' }} borderRadius="20px"  fontSize="larger" className="quote"> A developer that believes in discovering the &quot;why.&quot;</Heading>
    </Box>
-  
-    
- 
-  
-  
-
-      <Section delay={0.1}>   
-        <Container  mt={['5', '6']} mb={['5', '10']}
-        >           
-         <Box className="design">
-     
    
-    
-              <h1 fontFamily='Baloo, sans-serif'
-                  className="item" 
-                           
-                 >
-   Design encompasses the internal functionality of a product as well as the overall user experience. I strive to design interfaces and experiences that people can enjoy on all digital mediums.
-              </h1>
-              </Box>
-              <Divider my={4} />
-           <Box className="develop">
+      <Section delay={0.1}>   
+   <Box mt={4} >
+
+   
                <h1 className="item">
-                Constantly looking for a new way to understand and create, I am always working on new projects. As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create beautiful software. 
-              </h1>  
-              </Box>
- 
-        </Container>
+              
+                Constantly looking for a new way to understand and create, I am always working on 
+                new projects. As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create 
+                beautiful software. 
+                <NextLink href="/builds" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} marginLeft="2" fontFamily="SF-Pro-Display-Light" h="1rem" p={3.5}>
+           
+            </Button>
+          </NextLink>  </h1>  
+              </Box>     
     </Section>
+    <Divider my={4} />
           <LanguageStackSection />
           <Divider my={4} />
           
     <Section delay={0.3}>
-    <Heading
+    
+ <Box 
+ alignItems="center"
+          maxW="container.md"
+       textAlign="left"
+          justify="space-between" 
+          align="left"> 
+          
+        
+   
+          <Heading
                 as="h1"
                 fontSize={{ base: "20px", md: "24px", lg: "28px" }}
-                mt={3}
                 mb={5}
-                fontFamily='Baloo, sans-serif'
+                fontFamily='SF-Pro-Display'
                 fontWeight="400"
                 variant="section-title"
-
-            >   
-                Currently Building
-                    
+              
+            >
+                 Current projects
             </Heading>
-   
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+            <Text fontFamily="SF-Pro-Display-Light"  fontSize={'lg'}>Always keep my {''}  
+            <NextLink href="https://www.github.com/j-schneble"  passHref scroll={false}>
+            <Link >Github </Link> 
+            </NextLink>
+            up to date</Text>
+    
+   
+    </Box>
+    
+
+
+
+
+
+
+
+
+        <SimpleGrid columns={[1, 2, 2]} gap={6} mt={10}>
+        
           <GridItem
             id="Facebook"
             
@@ -118,6 +123,7 @@ const Home = () => (
            
           </GridItem>
        </SimpleGrid>
+
        </Section>
 
   </Container>

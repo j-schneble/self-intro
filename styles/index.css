@@ -1,3 +1,37 @@
+@font-face {
+  font-family: "SF-Pro";
+  src: url('../components/fonts/SF-Pro/SF-Pro.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF-Pro-Display";
+  src: url('../components/fonts/SF-Pro-Display/SF-Pro-Display-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF-Pro-Display-Bold";
+  src: url('../components/fonts/SF-Pro-Display/SF-Pro-Display-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF-Pro-Display-Light";
+  src: url('../components/fonts/SF-Pro-Display/SF-Pro-Display-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF-Pro-Text-Regular";
+  src: url('../components/fonts/SF-Pro-Text/SF-Pro-Text-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
 
 .item3 { 
     grid-area: left; 
@@ -23,14 +57,31 @@
 }
 .item {
   text-indent: 0.7rem;
-    letter-spacing: -0.03em;
+    letter-spacing: wider;
    font-weight: 300;
     text-align:center;
    padding-bottom: 15px;
-   padding-top: 4px;
+   padding-top: 4rem;
    margin-right: 3px;
    margin-bottom: 20px;
    font-size: large;
+   font-family: "SF-Pro-Display-Light";
+}
+.link {
+ 
+}
+
+.itemitem {
+  text-indent: 0.7rem;
+  letter-spacing: wider;
+ font-weight: 300;
+  text-align:center;
+ padding-bottom: 15px;
+ padding-top: 1rem;
+ margin-right: 3px;
+ margin-bottom: 20px;
+ font-size: large;
+ font-family: "SF-Pro-Display-Light";
 }
 .place {
   margin-top: 20px;
@@ -55,7 +106,17 @@
   background-color: transparent;
 }
 .quote {
+  padding-bottom: 5px;
+  font-family: "SF-Pro-Display";
+  letter-spacing: 'widest';
+  padding-top: 5px;
+  
+}
+.quote2{
   padding-bottom: 4px;
+  font-family: "SF-Pro-Display";
+  letter-spacing: 'widest';
+  font-size:larger;
 }
 
 
@@ -204,7 +265,7 @@ word-break: normal;
     font-size: 2.175rem/* 30px */;
     line-height: 2.25rem/* 36px */;
     margin-left: 1px;
-    
+    font-family: SF-Pro;
     padding: 0.3rem;
     border-width: 1px;
 
@@ -287,7 +348,7 @@ word-break: normal;
 }
 
 .design {
-  background-color: rgba(228, 223, 216, 0.0050);
+  background-color: rgba(228, 223, 216, 0.010);
   padding-top: 1rem;
 
   border-radius:15px;
@@ -295,7 +356,7 @@ word-break: normal;
 }
 
 .develop {
-  background-color: rgba(228, 223, 216, 0.0050);
+  background-color: rgba(228, 223, 216, 0.010);
   padding-top: 1rem;
 
   border-radius:15px;
@@ -305,6 +366,18 @@ word-break: normal;
   background-color: rgba(228, 223, 216, 0.0050);
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
+  font-family: S;
+  border-radius:15px;
+}
+
+.buildbutton {
+  font-family: "SF-Pro-Display";
+  background-color: #5651e5;
+}
+.buildstext {
+  background-color: rgba(228, 223, 216, 0.010);
+
 
   border-radius:15px;
+  
 }

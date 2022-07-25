@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Text, useColorModeValue, Box } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Text, useColorModeValue, Box, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
@@ -22,9 +22,22 @@ const Builds = () => (
  
     <Container >
 
-      <Heading   css={{ backdropFilter: 'blur(10px)' }} paddingLeft="1.3rem" paddingTop="0.5rem" paddingBottom=" 0.5rem " borderRadius="lg" maxWidth="15rem" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}  fontFamily='Baloo, sans-serif' as="h3" fontSize={25} letterSpacing="wider" fontWeight={500}  mb={10} variant="section-title">
+      <Heading   css={{ backdropFilter: 'blur(10px)' }} paddingLeft="1.3rem" paddingTop="0.5rem" paddingBottom=" 0.5rem " borderRadius="lg" maxWidth="15rem" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}  fontFamily='Baloo, sans-serif' as="h3" fontSize={25} letterSpacing="wider" fontWeight={500} mt={14} mb={5} variant="section-title">
         Personal Builds
       </Heading>
+      <Divider my={4} />
+      <Box className="buildstext">
+     
+   
+      
+     <h1 fontFamily='Baloo, sans-serif'
+         className="itemitem" 
+                  
+        >
+        
+Design encompasses the internal functionality of a product as well as the overall user experience. I strive to develop interfaces and experiences that people can enjoy on all digital mediums.
+     </h1>
+     </Box>
     
 
       <SimpleGrid  columns={[1, 1, 2 ]} gap={6}>

@@ -20,10 +20,10 @@ import {
 
       <Container>
      
-        <Title>
+        <Title fontFamily="SF-Pro-Display">
           iChat
         </Title>
-        <P>
+        <P  fontFamily="SF-Pro-Display">
           The first version of many chat apps called iChat. A real time chat application, with real communication and multiple rooms.
           
         </P>

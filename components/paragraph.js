@@ -4,7 +4,7 @@ const Paragraph = styled.p`
   text-align: justify;
   text-indent: 1em;
   font-weight: 300;
-  font-family: Baloo, sans-serif;
+  font-family: 'SF-Pro-Display-Light';
   letter-spacing: 0.025em;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
 

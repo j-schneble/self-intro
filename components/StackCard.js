@@ -9,7 +9,7 @@ const StackCard = ({ stack }) => {
             <LinkBox
                 as="article"
                 w="100%"
-                p={2}
+                p={1}
                 borderColor={useColorModeValue("gray.300", "gray.700")}
                 borderRadius={5}
                 borderWidth="1px"
@@ -33,7 +33,7 @@ const StackCard = ({ stack }) => {
                     <LinkOverlay href={stack?.url} rel="noopener" isExternal>
                         <Flex>
                             <Text
-                                size="sm"
+                                fontSize="0.8em"
                                 _hover={{ color: "blue.500" }}
                             >{stack?.name}</Text>
                         </Flex>

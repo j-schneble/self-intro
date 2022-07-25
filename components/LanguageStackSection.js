@@ -9,14 +9,15 @@ const LanguageStackSection = () => {
             <Heading
                 as="h1"
                 fontSize={{ base: "20px", md: "24px", lg: "28px" }}
-                mb={3}
-                fontFamily='Baloo, sans-serif'
+                mb={5}
+                fontFamily='SF-Pro-Display'
                 fontWeight="400"
                 variant="section-title"
+              
             >
-                Tech
+                 Tech
             </Heading>
-            <Text textColor={useColorModeValue("gray.600", "gray.400")} fontSize={'lg'}>Some of the tools and technologies I have been using on a regular basis.</Text>
+            <Text fontFamily="SF-Pro-Display-Light"  fontSize={'lg'}>  Some of the tools and technologies I have been using on a regular basis.</Text>
             <Grid
                 mt={5}
                 templateColumns={["1fr", "repeat(2,1fr)", "repeat(3, 1fr)", "repeat(4, 1fr)"]}

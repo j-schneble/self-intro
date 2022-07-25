@@ -74,7 +74,7 @@ const JsObject = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/sun.glb', {
+      loadGLTFModel(scene, 'sun.glb', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
