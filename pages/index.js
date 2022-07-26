@@ -29,7 +29,7 @@ import FrontendStackSection from '../components/FrontendStackSection'
 import CssStackSection from '../components/CssStackSection'
 import BackendStackSection from '../components/BackendStackSection'
 import OtherStackSection from '../components/OtherStackSection'
-import AboutTerminal from '../components/AboutTerminal/index.ts'
+
 const Home = () => (
   <Layout>
     <Container>
@@ -42,7 +42,7 @@ const Home = () => (
 
       >
       
-  <Heading fontFamily="SF-Pro-Display-Bold" align="center" marginLeft="4.35rem" width="70%" borderBottom=" 0.5px solid " borderBottomColor="#969696"
+  <Heading fontFamily="SF-Pro-Display-Bold" align="center" marginLeft="4rem" width="70%" borderBottom=" 0.5px solid " borderBottomColor="#969696"
      fontWeight="500" css={{ backdropFilter: 'blur(16px)' }} p={1} fontSize="4xl"> Jack Schneble  <Text css={{ backdropFilter: 'blur(16px)' }} fontFamily="SF-Pro-Display" fontWeight="400" fontSize="large">St. Petersburg, Florida 📍</Text> </Heading> 
     
    </Box>
@@ -56,10 +56,17 @@ const Home = () => (
           justify="space-between" 
           align="center"
           mb={6}
-        
-          p={2}>
-               <AboutTerminal />
-      
+          mt={8}
+          p={4}>
+      <Text fontFamily="SF-Pro-Display-Light"  fontSize={'lg'}>
+      A developer that believes in discovering the &quot;why.&quot; As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create 
+                beautiful software. 
+                <NextLink href="/builds" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} marginLeft="2" fontFamily="SF-Pro-Display-Light" h="1rem" p={3.5}>
+           
+            </Button>
+          </NextLink>  
+          </Text>
           </Box>
  </Container>
                 <Box 
@@ -118,11 +125,11 @@ const Home = () => (
     </Section>
     <Divider my={7} />
           <LanguageStackSection />
-          <Divider my={7} />
+          
     
 
   </Container>
-
+  
 </Layout>
 )
 export default Home
