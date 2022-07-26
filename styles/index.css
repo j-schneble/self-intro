@@ -28,6 +28,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "SF-Pro-Display-Heavy";
+  src: url('../components/fonts/SF-Pro-Display/SF-Pro-Display-Heavy.otf');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 
@@ -61,7 +67,7 @@
    font-weight: 300;
     text-align:center;
    padding-bottom: 15px;
-   padding-top: 4rem;
+   padding-top: 1rem;
    margin-right: 3px;
    margin-bottom: 20px;
    font-size: large;
@@ -95,8 +101,8 @@
 }
 .top {
   text-shadow: var(--x-shadow) var(--y-shadow) 20px black;
-  font-weight: 600;
-  font-size: larger;
+ 
+ 
   padding-bottom: 2px;
 
 }
@@ -107,10 +113,16 @@
 }
 .quote {
   padding-bottom: 5px;
-  font-family: "SF-Pro-Display";
+  font-family: "SF-Pro-Display-Bold";
   letter-spacing: 'widest';
   padding-top: 5px;
+  font-size: large;
+  border-bottom: 0.5px solid;
+  border-bottom-color: white;
   
+}
+.left {
+  align-items: left;
 }
 .quote2{
   padding-bottom: 4px;
@@ -119,7 +131,11 @@
   font-size:larger;
 }
 
+.grad {
+ 
 
+
+}
 .projtitle {
   text-shadow: 5px 5px #ffff00;
   filter: drop-shadow(-10px 10px 20px #fff000);
@@ -368,6 +384,7 @@ word-break: normal;
   padding-bottom: 0.1rem;
   font-family: S;
   border-radius:15px;
+
 }
 
 .buildbutton {

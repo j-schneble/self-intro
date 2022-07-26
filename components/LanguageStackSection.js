@@ -9,7 +9,7 @@ const LanguageStackSection = () => {
             <Heading
                 as="h1"
                 fontSize={{ base: "20px", md: "24px", lg: "28px" }}
-                mb={5}
+                mb={4}
                 fontFamily='SF-Pro-Display'
                 fontWeight="400"
                 variant="section-title"

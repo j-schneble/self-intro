@@ -97,7 +97,7 @@ const Contact = () => {
                             >
 
                                 <Heading fontFamily='Baloo, sans-serif' size={'lg'}>Let&apos;s get in touch. Send me a message 💬</Heading>
-                                <Text fontFamily='Baloo, sans-serif' fontSize={'lg'} my={2}>Do not hesitate to reach out!</Text>
+                                <Text fontFamily='Baloo, sans-serif' fontSize={'lg'} my={2}>Please do not hesitate to reach out!</Text>
                                 <Box my={4} textAlign="left">
                                     <form onSubmit={handleSubmit}>
                                         {error && <ErrorMessage message={error} />}

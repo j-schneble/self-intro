@@ -29,14 +29,14 @@ const Logo = () => {
          
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-            fontFamily='SF-Pro-Display'
-            fontWeight="500"
-            letterSpacing="widest"
+            fontFamily='SF-Pro-Display-Light'
+            fontWeight="300"
+         
             ml={1}
             mb={6}
 
           >
-            Jack Schneble
+            JS Home
           </Text>
         </LogoBox>
       </a>

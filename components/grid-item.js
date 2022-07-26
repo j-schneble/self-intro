@@ -12,6 +12,7 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
         className="grid-item-thumbnail"
         placeholder="blur"
         loading="lazy"
+        blurDataURL={thumbnail}
       />
       <LinkOverlay href={href} target="_blank">
         <Text mt={2}>{title}</Text>
@@ -30,6 +31,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
           alt={title}
           className="grid-item-thumbnail"
           placeholder="blur"
+          blurDataURL={thumbnail}
         />
         <LinkOverlay href={`/builds/${id}`}>
           <Text mt={2} fontSize={20}>

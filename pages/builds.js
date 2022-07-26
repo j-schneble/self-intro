@@ -3,11 +3,11 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbiNote from '../public/images/merstack.png'
-import thumbWeather from '../public/images/weather.png'
-import thumbWave from '../public/images/electricwave.png'
-import thumbChat from '../public/images/chat.png';
-import thumbV2 from '../public/images/ichatv2.png'
+import thumbiNote from '../public/images/final.png'
+import thumbWeather from '../public/images/final2.png'
+import thumbWave from '../public/images/thumb2.png'
+import thumbChat from '../public/images/final3.png';
+import thumbV2 from '../public/images/final4.png'
 import thumbText from '../public/images/textinspect.png'
 
 
@@ -15,23 +15,28 @@ import thumbText from '../public/images/textinspect.png'
 const Builds = () => (
    
   <Layout 
-  fontFamily='Baloo, sans-serif'
+  fontFamily='SF-Pro-Display'
   title="Works"
 
    >
  
     <Container >
 
-      <Heading   css={{ backdropFilter: 'blur(10px)' }} paddingLeft="1.3rem" paddingTop="0.5rem" paddingBottom=" 0.5rem " borderRadius="lg" maxWidth="15rem" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}  fontFamily='Baloo, sans-serif' as="h3" fontSize={25} letterSpacing="wider" fontWeight={500} mt={14} mb={5} variant="section-title">
+      <Heading   css={{ backdropFilter: 'blur(14px)' }} borderBottom="1.5px solid white" paddingLeft="1.3rem" paddingTop="0.5rem" paddingBottom=" 0.5rem "  maxWidth="15rem"   fontFamily='SF-Pro-Display' fontSize={25} letterSpacing="wider" fontWeight={500} mt={14} mb={5} >
         Personal Builds
       </Heading>
-      <Divider my={4} />
-      <Box className="buildstext">
+      <Divider my={6} />
+      <Box 
+      align="center"
+      mb={12}
+      mt={8}
+      >
      
    
       
-     <h1 fontFamily='Baloo, sans-serif'
-         className="itemitem" 
+     <h1 fontFamily='SF-Pro-Display-Light'
+     
+       
                   
         >
         
@@ -47,51 +52,55 @@ Design encompasses the internal functionality of a product as well as the overal
         <Section >
      
           <WorkGridItem 
-             
- id="inote" letterSpacing="wider" thumbnail={thumbiNote} ><Heading variant="section-title" fontFamily='Baloo, sans-serif' className="top" fontWeight="600"  >iNote</Heading>
-          <Text  fontSize={'md'} className='buildsummary'>
-            A MERN Stack notes application. Specficially built using ReactJS, MongoDB, Postman.
-         </Text> </WorkGridItem>
+             fontFamily='SF-Pro-Display'
+ id="inote"  
+
+  thumbnail={thumbiNote} ><Heading  fontFamily='SF-Pro-Display' className="top" fontSize="md" fontWeight="400" letterSpacing="wider"  > A note application to create then store any ideas or information you choose.</Heading>
+           </WorkGridItem>
        
         </Section>
         <Section>
         
           <WorkGridItem 
             id="3dwave "
-           
+            fontFamily='SF-Pro-Display'
             
             thumbnail= {thumbWave}
             
-          ><Heading letterSpacing="wider" variant="section-title" fontFamily='Baloo, sans-serif' className="top" fontWeight="600" >3D wave</Heading>
-          <Text  fontSize={'md'} className='buildsummary'>
-            A 3d Wave Ripple Animation using React, Three.js, and react-three-fiber
-          </Text></WorkGridItem>
+          ><Heading fontFamily='SF-Pro-Display' className="top" fontSize="md" fontWeight="400" letterSpacing="wider" >A 3D interactive space wave.</Heading>
+          </WorkGridItem>
           
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-          fontFamily='Baloo, sans-serif'
+          fontFamily='SF-Pro-Display'
             id="jacksforecast"
             thumbnail={thumbWeather}
+            border="2px solid white"
            
-          ><Heading variant="section-title" letterSpacing="wider" fontFamily='Baloo, sans-serif' className="top" fontWeight="600"  > Jack&apos;s Forecast</Heading>
-          <Text  fontSize={'md'} className='buildsummary'>
-           A weather app using Nextjs, Tailwind, and the Current Weather data API from openweather.org.
-         </Text> </WorkGridItem>
+          ><Heading fontFamily='SF-Pro-Display' className="top" fontSize="md" fontWeight="500" letterSpacing="wider"  > A weather application to check current weather data for any location.  </Heading>
+           </WorkGridItem>
         </Section>
-        <Section delay={0.1}>
+
+        <Section  delay={0.1}>
+        <Box
+       
+        borderRadius="15px"
+        className="grad"
+            border="4px solid #bb00ff"
+            p={2}>
           <WorkGridItem
-          fontFamily='Baloo, sans-serif'
+          fontFamily='SF-Pro-Display'
             id="ichat"
             thumbnail={thumbChat}
           
           >
-          <Heading variant="section-title" letterSpacing="wider" fontFamily='Baloo, sans-serif' className="top" fontWeight="600"  >iChat</Heading>
-          <Text  fontSize={'md'} className='buildsummary'>
-           The first version of iChat. A real time chat application. 
-           </Text> </WorkGridItem>
+          <Heading fontFamily='SF-Pro-Display' className="top" fontSize="md" fontWeight="400" letterSpacing="widest">The first version of a real time chat application.</Heading>
+           </WorkGridItem>
+           </Box>
       </Section>
+
       <Section delay={0.1}>
           <WorkGridItem
           fontFamily='Baloo, sans-serif'

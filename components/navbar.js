@@ -76,10 +76,10 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
             mt={{ base: 3, md: 0 }}
           >
             <LinkItem href="/builds" path={path}>
-              Builds
+            🔘Builds
             </LinkItem>
             <LinkItem href="/contact" path={path}>
-              Contact 💬
+            🔘Contact 
             </LinkItem>
          
        
