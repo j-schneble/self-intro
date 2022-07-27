@@ -14,7 +14,7 @@ const MyJsObject = dynamic(() => import('../js-object.js'), {
 const Main = ({ children, router }) => {
   return (
  
-    <Box as="main" pb={8}>
+    <Box as="main" >
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Jacks Homepage" />
@@ -33,11 +33,11 @@ const Main = ({ children, router }) => {
         
       </Head>
      
-      <NavBar path={router.asPath} />
+  
     
       
 
-      <Container maxW="container.md" pt={14}>
+      <Container maxW="container.md"  >
         <MyJsObject />
        
         {children}
