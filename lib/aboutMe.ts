@@ -10,7 +10,7 @@ const info = (props: any): { input: string; return: string }[] => [
   },
   {
     input: 'self.developmentPassion',
-    return: '"A developer that believes in discovering the "why." As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create beautiful software."',
+    return: '"Hello, my name is Jack. I build responsive web applications that are efficient, fast, and acessible to all."',
   },
   {
     input: 'self.uiPassion',

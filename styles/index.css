@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 @font-face {
   font-family:"SF-Pro";
   src: url('../components/fonts/SF-Pro/SF-Pro.ttf');
@@ -35,4 +41,64 @@
   font-style: normal;
 }
 
+.term-red {
+background-color: #ff3b30;
+}
+.term-yellow {
+background-color: #ffcc00;
+}
+@media (max-width: 671px) {
+  .term-yellow{
+display:none;
+  }
+}
 
+.term-green {
+background-color: #28cd41;
+}
+ .bglight-dots {
+  background: linear-gradient(90deg, #f9fafb 15px, transparent 1%) center,
+    linear-gradient(#f9fafb 15px, transparent 1%) center, rgba(0, 0, 0, 0.24);
+  border: 1px solid    rgba(0, 0, 0, 0.10);
+  box-shadow: #010101;
+  background-size: 16px 16px;
+  border-radius: 10px;
+  padding-left:0.5rem;
+  padding-right: 0.5rem;
+}
+
+.bgdark-dots {
+  background: linear-gradient(90deg, #050505 15px, transparent 1%) center,
+    linear-gradient(#050505 15px, transparent 1%) center,
+    rgba(255, 255, 255, 0.12);
+  background-size: 16px 16px;
+  padding-left:0.5rem;
+  padding-right: 0.5rem;
+  box-shadow: #ffffff;
+  border-bottom: 1px solid    rgba(255, 255, 255, 0.075);
+  border-top: 1px solid    rgba(255, 255, 255, 0.23);
+}
+
+ .terminal-shad {
+  box-shadow: 0 0 5px 1px #000a;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  box-shadow:.8rem .8rem 1.4rem var(#c8d0e7), 
+  -.2rem -.2rem 1.8rem var(#FFFFFF);
+ }
+.terminal-back {
+background-color: black;
+  border: 1px solid #c8d0e7;
+  border-radius: 6px;
+}
+.term-top {
+  border: 1px solid #c8d0e7;
+  background: linear-gradient(to right, #000000, #000000);
+  border-radius: 4px;
+  z-index: 20;
+}
+@media (max-width: 671px) {
+  .term-mob {
+ max-height: 500px;
+  }
+}

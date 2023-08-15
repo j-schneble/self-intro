@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "components/AboutTerminal/AboutTerminal.js", "components/Statement/Statement.js"  ],
   "exclude": [
     "node_modules"
   ]
