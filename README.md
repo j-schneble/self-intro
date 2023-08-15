@@ -1,7 +1,7 @@
-## Self Intro 
-A self-introducing home page. When using the correct hot key, a terminal will share an intro about myself.
+## Self Intro
+A self-introducing home page. When using the correct hot key, a terminal will share info about me.
 
-<img width="250" alt="Screen Shot 2022-08-24 at 7 38 26 PM" src="https://user-images.githubusercontent.com/60337134/186542359-56561d06-d622-4872-a683-0a8489304e36.png">
+<img width="1440" alt="introduceSelf" src="https://github.com/j-schneble/self-intro/assets/60337134/15f3078b-f269-4fbb-8a4b-184c11e46283">
 
 ### Demo
 #### 🔗 [Self Intro](https://self-intro-seven.vercel.app/)
@@ -9,7 +9,6 @@ A self-introducing home page. When using the correct hot key, a terminal will sh
 ### Stack
 - [Next.js](https://nextjs.org/)
 - [Typescript](https://nextjs.org/docs/basic-features/typescript)
-- [Three.js](https://threejs.org/docs/#api/en/geometries/SphereGeometry)
 - [Chakra UI](https://chakra-ui.com/)
 
 ### Clone this repository
@@ -24,3 +23,4 @@ npm install
 ```bash
 npm run dev
 ```
+
