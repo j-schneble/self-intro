@@ -91,7 +91,7 @@ const Statement = ({
             __html: initialState ? 'Press enter to see what I am about' : result,
           }}
         />
-        
+
       </VStack>
     </>
   );
